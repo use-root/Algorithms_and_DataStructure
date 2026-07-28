@@ -19,3 +19,16 @@ An algorithm it's a step by step procedure fro solving computational problems.
 - Specific definitions
 - Finitess is the state of being limited or having an end.
 - Efectiveness
+
+#### Time Complexity Funcitons:
+
+```c++
+for(int i=0; i<n; i++)  // -- O(n)
+for(int i=0; i<n; i+2)  // -- O(n)
+for(int i=n; i>1; i--) // -- O(n)
+
+for(int i=0; i<n; i=i*2) // -- O(log(n))
+for(int i=0; i<n; i=i*3) // -- O(log3(n))
+for(int i=0; i<n; i=i/2) // -- O(log(n))
+for(int i=0; i*i<n; i++) // -- O(root(n))
+```
